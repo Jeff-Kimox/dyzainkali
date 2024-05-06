@@ -235,7 +235,7 @@ const About = () => {
                       {/**icons */}
                       {item.icons?.map((icon, itemIndex) => {
                         return (
-                          <div className='text-2xl text-white'>{icon}</div>
+                          <div key={itemIndex} className='text-2xl text-white'>{icon}</div>
                         );
                       })}
                     </div>
